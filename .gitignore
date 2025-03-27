@@ -1,3 +1,7 @@
 .venv/
 
 audio_files/
+
+local_preprocess
+
+audio_files.zip
