@@ -1,3 +1,7 @@
 29 March 2025
     +   Fine-tune WhisperTiny on Kaggle
     +   Bugs: DDP with Kaggle had a bottleneck >> Everything ran well with 1 GPU
+30 March 2025
+    +   Convert to Ctranslate2 format
+            Command: ct2-transformers-converter     --model models/whisper-tiny-vn-1     --output_dir models/faster-whisper-tiny-vn-1     --copy_files tokenizer_config.json     --quantization float16
+    +   Problem: Audio may have more that 1 language
