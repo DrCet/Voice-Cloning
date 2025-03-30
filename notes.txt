@@ -4,4 +4,23 @@
 30 March 2025
     +   Convert to Ctranslate2 format
             Command: ct2-transformers-converter     --model models/whisper-tiny-vn-1     --output_dir models/faster-whisper-tiny-vn-1     --copy_files tokenizer_config.json     --quantization float16
-    +   Problem: Audio may have more that 1 language
+    +   Push new model to hugging face hub
+            pip install huggingface_hub
+            huggingface-cli loginpip install huggingface_hub
+            huggingface-cli login
+
+            huggingface-cli repo create faster-whisper-vn-1
+
+            git clone https://huggingface.co/Cets/faster-whisper-vn-1
+            mv faster-whisper-vn-1 /path/to/faster-whisper-vn-1/model
+            cd /path/to/faster-whisper-vn-1/model
+            git lfs install
+
+            git add .
+            git commit -m "Upload faster-whisper-vn-1 model"
+            git push origin main
+
+            git lfs track "*.bin" "*.onnx"
+            git add .gitattributes
+    +   Set to multilingual
+    +   Write to fine-tune speechT5    
