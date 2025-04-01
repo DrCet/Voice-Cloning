@@ -1,3 +1,6 @@
+31 March 2025:
+        + Finetune speechT5 on thanhpahm and own dataset
+
 29 March 2025
     +   Fine-tune WhisperTiny on Kaggle
     +   Bugs: DDP with Kaggle had a bottleneck >> Everything ran well with 1 GPU
