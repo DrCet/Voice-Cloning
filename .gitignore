@@ -7,3 +7,5 @@ local_preprocess
 audio_files.zip
 
 whisper-tiny-vn-1/
+
+prompts/

@@ -1,3 +1,6 @@
+2 April 2025:
+        + VITS >> Training isn't supported with transformers
+
 31 March 2025:
         + Finetune speechT5 on thanhpahm and own dataset
 
