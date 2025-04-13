@@ -1,5 +1,6 @@
 13 April 2025:
         + Reading: Do we have free will?
+        + Philosophy
 4 April 2025:
         + Need to modify the finetune-hf-vits/utils/plot.py to adapt the matplotlib version on colab
         + The num_proc
